@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="icon" href="favicon.ico">
+    <style>
+        .contact {
+            height: 350px;
+            width: 100%;
+        }
+        .welcomeimage { 
+           height:30px;
+           width: 30px;
+        }
+    </style>
+</head>
+<body class="contactme" style="background-color:#e4f9f5" >
+    <img class="contact" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Contact me">
+    <h1 style="text-decoration: underline ; text-align: center;">Contact Us</h1>
+    <p style="text-align: center;">Fill the above form.We will try to contact you as soon as possible  : <img class="welcomeimage" src="https://cdn-icons-png.flaticon.com/512/2664/2664147.png"> </p>
+    <h3>Student Details</h3>
+    <div style="background-color : #e4f9f5;">
+
+    <form action="mailto:godbhole53@gmail.com" method="post" enctype="text/plain">
+    <table  cellpadding="10px">
+        <tr>
+            <td>Student Name</td>
+            <td><input type="text" name="Student Name" placeholder="Student Name" maxlength="30"/> (max 30 characters a-z or A-Z)</td>
+        </tr>
+        <tr>
+           <td>Date of Birth</td>
+           <td>
+            <select name="Birthday_day" id="Birthday_day">
+                <option value="-1">Day:</option> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option>
+                <option value="5">5</option>  <option value="6">6</option>  <option value="7">7</option>
+                <option value="8">8</option>  <option value="9">9</option>  <option value="10">10</option>  <option value="11">11</option>
+                <option value="12">12</option>  <option value="13">13</option>  <option value="14">14</option>
+                <option value="15">15</option>  <option value="16">16</option>  <option value="17">17</option>  
+                <option value="18">18</option>  <option value="19">19</option>  <option value="20">20</option> 
+                <option value="21">21</option>  <option value="22">22</option>  <option value="23">23</option> 
+                <option value="24">24</option>  <option value="25">25</option>  <option value="26">26</option> 
+                <option value="27">27</option>  <option value="28">28</option>  <option value="29">29</option> 
+                <option value="30">30</option>  <option value="31">31</option>       
+            </select>
+            <select id="Birthday_Month" name="Birthday_Month">
+            <option value="-1">Month:</option> 
+            <option value="january">jan</option>  <option value="february">Feb</option>  <option value="March">mar</option>
+            <option value="April">Apr</option>  <option value="May">May</option>  <option value="june">jun</option> 
+            <option value="july">july</option>  <option value="August">Aug</option>  <option value="September">Seb</option> 
+            <option value="October">oct</option>  <option value="November">Nov</option>  <option value="December">Dec</option>  
+            </select> 
+            <select name="Birthday-Year" id="Birthday_Month" name="Birthday_Month">
+                <option value="-1">Year:</option>  
+                <option value="2010">2010</option>  <option value="2009">2009</option> <option value="2008">2008</option>
+                <option value="2007">2007</option> <option value="2006">2006</option> <option value="2005">2005</option> 
+                <option value="2004">2004</option> <option value="2003">2003</option> <option value="2002">2002</option>
+                <option value="2001">2001</option> <option value="2000">2000</option> <option value="1999">1999</option>
+                <option value="1998">1998</option> <option value="1997">1997</option> <option value="1996">1996</option>
+                <option value="1995">1995</option> <option value="1994">1994</option> <option value="1993">1993</option> 
+            </select>
+           </td> 
+        </tr>
+        <tr>
+            <td>Email Id</td>
+            <td><input type="email" name="Email_Id"  placeholder="Email id" maxlength="100" /></td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td>
+                <input type="number" name="Mobile_Number" placeholder="Mobile number" maxlength="10"/>(10 digit number)
+            </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                Male<input type="radio" name="Gender" value="Male" />
+                Female<input type="radio" name="Gender" value="Female" />
+            </td>
+        </tr>
+        <tr>
+            <td>ADDRESS<br /><br /><br></td>
+            <td>><textarea name="Address"  cols="30" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>
+                <input type="text" name="State" placeholder="State" maxlength="30" />(max 30 characters a-z and A-Z)
+            </td>
+        </tr>
+        <tr>
+            <td>Hobbies</td>
+            <td><input type="text" name="Hobbies" placeholder="hobbies" value="" /></td>
+        </tr>
+        <tr>
+            <td>Class</td>
+            <td>
+                <select id="Class" name="class">
+                    <option value="-1">class</option> 
+                    <option value="Nineth">9th class</option>
+                    <option value="HIGH SCHOOl"> 10th board</option>
+                    <option value="Eleven">11th class</option>
+                    <option value="Secondier">12th board</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Course Selected :</td>
+            <td>Physics
+                <input type="checkbox" name="Physics" value="Physics" />
+               Maths
+               <input type="checkbox" name="Maths" value="Maths" />
+               Chemistry
+               <input type="checkbox" name="chemistry" value="chemistry" />
+               Biology 
+               <input type="checkbox" name="biology" value="Biology" />
+            </td>
+        </tr>
+         <tr>
+            <td colspan="2" align="center">
+                <input type="Submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+         </tr>
+    </table> 
+    </form>
+    </div>
+       
+</body>
+</html>
